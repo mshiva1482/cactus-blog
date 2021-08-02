@@ -1,13 +1,22 @@
 const Navbar = () => {
     return (
         <nav className = "navbar">
-            <h1>My blog</h1>
+            <div className = "logo">
+                <h1>Cactus blog</h1>
+            </div>
             <div className = "links">
                 <a href="/">Home</a>
-                <a href="/">New blog</a>
+                <a href="/" style = {styling}>New blog</a>
             </div>
         </nav>
     );
+}
+
+const styling = {
+    color: "white",
+    background: "red",
+    borderRadius: "8px",
+    padding: "6px"
 }
 
 export default Navbar
