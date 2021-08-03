@@ -12,6 +12,8 @@ const Navbar = () => {
     );
 }
 
+
+//Inline styling
 const styling = {
     color: "white",
     background: "red",
