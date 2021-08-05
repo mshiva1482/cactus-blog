@@ -51,3 +51,10 @@
   color: red;
   padding-bottom: 8px;
 }
+.blog-preview button {
+  margin: 10px 0px;
+}
+
+.blog-list h1{
+  margin-bottom: 15px;
+}
