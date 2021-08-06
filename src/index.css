@@ -58,3 +58,77 @@
 .blog-list h1{
   margin-bottom: 15px;
 }
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-preview a:visited{
+  color: black;
+}
+
+.blog-details h2{
+  color: red;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.blog-details div{
+  margin: 20px 0px;
+  font-size: large;
+}
+.blog-details button{
+  background-color: red;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+.create{
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+.create h2{
+  color: red;
+  font-size: xx-large;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.create input {
+  width: 400px;
+  height: 25px;
+  padding: 10px;
+  border: 1px solid rgb(212, 212, 212);
+}
+.create textarea{
+  width: 400px;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.create select{
+  width: 423px;
+  height: 35px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(216, 216, 216);
+
+}
+.create button {
+  background-color: red;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
