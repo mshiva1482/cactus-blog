@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <nav className = "navbar">
             <div className = "logo">
-                <h1>Cactus blog</h1>
+                <h1 className="cactus-logo">Cactus blog</h1>
             </div>
             <div className = "links">
                 <Link to="/">Home</Link>
@@ -18,7 +18,7 @@ const Navbar = () => {
 //Inline styling
 const styling = {
     color: "white",
-    background: "red",
+    background: "#f0544f",
     borderRadius: "8px",
     padding: "6px"
 }

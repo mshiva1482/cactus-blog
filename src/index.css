@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand&display=swap');
 
+:root{
+  --primary: #f0544f;
+}
+
 * {
   margin: 0px;
   font-family: 'Quicksand', sans-serif;
@@ -14,9 +18,10 @@
 }
 
 .navbar:first-child{
-  color: red;
+  color: var(--primary);
   font-size: larger;
 }
+
 
 .links a{
   padding: 0px 20px;
@@ -28,7 +33,7 @@
   color: black;
 }
 .links a:hover{
-  color: red;
+  color: var(--primary);
 }
 
 .content {
@@ -48,7 +53,7 @@
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .blog-preview h2{
-  color: red;
+  color: var(--primary);
   padding-bottom: 8px;
 }
 .blog-preview button {
@@ -56,7 +61,7 @@
 }
 
 .blog-list h1{
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 .blog-preview a{
@@ -68,7 +73,7 @@
 }
 
 .blog-details h2{
-  color: red;
+  color: var(--primary);
   margin: 10px 0px;
   padding: 10px 0px;
   border-bottom: 1px solid rgb(209, 209, 209);
@@ -79,7 +84,7 @@
   font-size: large;
 }
 .blog-details button{
-  background-color: red;
+  background-color: var(--primary);
   border-radius: 8px;
   color: white;
   border: none;
@@ -94,7 +99,7 @@
   margin: 0 auto;
 }
 .create h2{
-  color: red;
+  color: var(--primary);
   font-size: xx-large;
 }
 
@@ -106,8 +111,9 @@
 }
 .create input {
   width: 400px;
-  height: 25px;
+  height: 20px;
   padding: 10px;
+  margin-bottom: 10px;
   border: 1px solid rgb(212, 212, 212);
 }
 .create textarea{
@@ -117,15 +123,8 @@
   border: 1px solid rgb(216, 216, 216);
 }
 
-.create select{
-  width: 423px;
-  height: 35px;
-  margin-bottom: 15px;
-  border: 1px solid rgb(216, 216, 216);
-
-}
 .create button {
-  background-color: red;
+  background-color: var(--primary);
   border-radius: 8px;
   color: white;
   border: none;
