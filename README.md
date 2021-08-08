@@ -33,7 +33,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-# CACTUS-BLOG 
+# Cactus-blog 
 This features a simple blog page that I created as part of my learning process for learning Reactjs.
 All the blog posts and related data is stored within a json file using a json-server.
 
