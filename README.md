@@ -37,5 +37,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 This features a simple blog page that I created as part of my learning process for learning Reactjs.
 All the blog posts and related data is stored within a json file using a json-server.
 
-### `npx json-server --watch data/db.js --watch --port 8000`
+### `npx json-server --watch data/db.json --watch --port 8000`
 To start json server
